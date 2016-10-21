@@ -3,63 +3,101 @@
   <head>
     <title>Html cheat sheet</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="../assets/css/style.css">
   </head>
   <body>
-    <h1>Header 1</h1>
-    <h2>Header 2</h2>
-    <h3>Header 3</h3>
-    <h4>Header 4</h4>
-    <h5>Header 5</h5>
-    <h6>Header 6</h6>
+    <header>
+      <h3 class="red-text">Cheat Sheet Project</h3>
+      <nav>
+        <ul>
+          <li><a href="https://wwww.facebook.com">My facebook</a></li>
+          <li><a href="https://www.github.com/makobi">Alex Santos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <aside>
+      <ol>
+        <li><a href="#header-section">Headers</a></li>
+        <li><a href="#text-section">Text</a></li>
+        <li><a href="#list-section">Lists</a></li>
+        <li><a href="links-section">Links</a></li>
+        <li><a href="#images-section">Images</a></li>
+        <li><a href="#tables-section">Tables</a></li>
+      </ol>
+    </aside>
+    <main>
+      <section id="header-section">
+        <h1>Header 1</h1>
+        <h2 class="red-text">Header 2</h2>
+        <h3>Header 3</h3>
+        <h4>Header 4</h4>
+        <h5>Header 5</h5>
+        <h6>Header 6</h6>
+      </section>
+      <section id="text-section">
+        <p>This is a paragraph <br> Yes this is a paragraph</p>
 
-    <p>This is a paragraph <br> Yes this is a paragraph</p>
-
-    <span>span</span>
-    <b>Bold</b>
-    <i>italics</i>
-    <u>underline</u>
-    <strong>emphasize bold</strong>
-    <em>emphasize italics</em>
-    <sup>Superscript</sup>
-    <sub>Subscript</sub>
-
-    <ol>
-      <li>item</li>
-      <li>item</li>
-      <li>item</li>
-    </ol>
-    <ul>
-      <li>item</li>
-      <li>item</li>
-      <li>item</li>
-    </ul>
-
-    <a href="https://www.google.com">Go to google</a>
-    <a href="https://www.google.com" target="_blank">Open google in tab</a>
-
-    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Flying_into_San_Juan-Puerto_Rico.jpg" alt="Imagen de San Juan" width="300px">
-    <img src="../assets/img/image1.jpg" alt="Another SJ image">
-
-    <table>
-      <thead>
-        <tr>
-          <th>Shampoo</th>
-          <th>Conditioner</th>
-          <th>Mascara</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>P. Shampoo</td>
-          <td>P. Conditioner</td>
-          <td>P. Mascara</td>
-        </tr>
-        <tr>
-          <td>HS Shampoo</td>
-          <td>HS Conditioner</td>
-          <td>HS Mascara</td>
-        </tr>
-      </tbody>
-    </table>
+        <span>span</span>
+        <b>Bold</b>
+        <i>italics</i>
+        <u>underline</u>
+        <strong class="red-text">emphasize bold</strong>
+        <em>emphasize italics</em>
+        <sup>Superscript</sup>
+        <sub>Subscript</sub>
+      </section>
+      <section id="list-section">
+        <ol>
+          <li>item</li>
+          <li>item</li>
+          <li>item</li>
+        </ol>
+        <ul>
+          <li>item</li>
+          <li>item</li>
+          <li>item</li>
+        </ul>
+      </section>
+      <section id="links-section">
+        <a href="https://www.google.com">Go to google</a>
+        <a href="https://www.google.com" target="_blank">Open google in tab</a>
+      </section>
+      <section id="images-section">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Flying_into_San_Juan-Puerto_Rico.jpg" alt="Imagen de San Juan" width="300px">
+        <img src="../assets/img/image1.jpg" alt="Another SJ image">
+      </section>
+      <section id="tables-section">
+        <table>
+          <thead>
+            <tr>
+              <th>Shampoo</th>
+              <th>Conditioner</th>
+              <th>Mascara</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>P. Shampoo</td>
+              <td>P. Conditioner</td>
+              <td class="red-text">P. Mascara</td>
+            </tr>
+            <tr>
+              <td>HS Shampoo</td>
+              <td>HS Conditioner</td>
+              <td>HS Mascara</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer>
+      <h5>Copyright (c) 2016 Copyright Holder All Rights Reserved.</h5>
+      <nav>
+        <ul>
+          <li><a href="https://wwww.twitter.com/Makobi93">Twitter</a></li>
+          <li><a href="https://www.linkedin.com">LikedIn</a></li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
