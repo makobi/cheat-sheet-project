@@ -1,12 +1,34 @@
-section {
-  background-color: green;
+body {
+  margin: 0;
 }
-#text-section {
-  background-color: blue;
+
+header {
+  background-color: aquamarine;
+  padding: 10px 15px;
 }
-.red-text {
-  color: red;
+
+header > h3 {
+  display: inline-block;
+  margin: 0;
 }
-h2.red-text {
-  font-size: 100px;
+
+header > nav {
+  float: right;
+}
+
+header > nav > ul {
+  padding: 0;
+  margin: 0;
+}
+
+header > nav > ul li {
+  float: left;
+  margin: 0 10px;
+  list-style: none;
+}
+
+header > nav > ul li > a {
+  text-decoration: none;
+  color: #333;
+  font-family: helvetica, arial;
 }
